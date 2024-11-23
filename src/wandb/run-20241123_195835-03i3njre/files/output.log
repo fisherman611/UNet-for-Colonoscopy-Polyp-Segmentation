@@ -1,0 +1,264 @@
+Training Progress:  62%|██████▏   | 31/50 [08:35<05:06, 16.11s/it, Train Loss=0.0151, Val Loss=0.0404]
+Epoch [1/50], Validation Loss: 0.3519981274
+Epoch [2/50], Validation Loss: 0.1927215595
+Epoch [3/50], Validation Loss: 0.1273323401
+Epoch [4/50], Validation Loss: 0.1253423387
+Epoch [5/50], Validation Loss: 0.0813373920
+Epoch [6/50], Validation Loss: 0.0693384896
+Epoch [7/50], Validation Loss: 0.0655814022
+Epoch [8/50], Validation Loss: 0.0645412860
+Epoch [9/50], Validation Loss: 0.0592633758
+Epoch [10/50], Validation Loss: 0.0560347214
+Epoch [11/50], Validation Loss: 0.0470285302
+Epoch [12/50], Validation Loss: 0.0424625209
+Epoch [13/50], Validation Loss: 0.0498114112
+Epoch [14/50], Validation Loss: 0.0411131260
+Epoch [15/50], Validation Loss: 0.0499123521
+Epoch [16/50], Validation Loss: 0.0451007616
+Epoch [17/50], Validation Loss: 0.0550011825
+Epoch [18/50], Validation Loss: 0.0440527388
+Epoch [19/50], Validation Loss: 0.0405942611
+Epoch [20/50], Validation Loss: 0.0366235203
+Epoch [21/50], Validation Loss: 0.0318900984
+Epoch [22/50], Validation Loss: 0.0301571720
+Epoch [23/50], Validation Loss: 0.0457686432
+Epoch [24/50], Validation Loss: 0.0395099105
+Epoch [25/50], Validation Loss: 0.0342995658
+Epoch [26/50], Validation Loss: 0.0442179225
+Epoch [27/50], Validation Loss: 0.0391507954
+Epoch [28/50], Validation Loss: 0.0351057690
+Epoch [29/50], Validation Loss: 0.0404432864
+Epoch [30/50], Validation Loss: 0.0352314043
+Epoch [31/50], Validation Loss: 0.0403906684
+Epoch [32/50], Validation Loss: 0.0390148133
+Epoch [33/50], Validation Loss: 0.0402796206
+Epoch [34/50], Validation Loss: 0.0389368768
+Epoch [35/50], Validation Loss: 0.0379241939
+Epoch [36/50], Validation Loss: 0.0491135181
+Epoch [37/50], Validation Loss: 0.0394111402
+Epoch [38/50], Validation Loss: 0.0475903951
+Epoch [39/50], Validation Loss: 0.0440221957
+Epoch [40/50], Validation Loss: 0.0410780024
+Epoch [41/50], Validation Loss: 0.0396317099
+Epoch [42/50], Validation Loss: 0.0402024651
+Epoch [43/50], Validation Loss: 0.0374560626
+Epoch [44/50], Validation Loss: 0.0406943554
+Epoch [45/50], Validation Loss: 0.0477803457
+Epoch [46/50], Validation Loss: 0.0369942011
+Epoch [47/50], Validation Loss: 0.0468833219
+Epoch [48/50], Validation Loss: 0.0429415341
+Epoch [49/50], Validation Loss: 0.0402817191
+Epoch [50/50], Validation Loss: 0.0374240418
+C:\Users\Administrator\AppData\Local\Temp\ipykernel_7760\3760274449.py:1: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(f'{new_cwd}/checkpoint/model.pth')
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\submission.csv
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\submission.csv
+C:\Users\Administrator\AppData\Local\Temp\ipykernel_7760\3760274449.py:1: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(f'{new_cwd}/checkpoint/model.pth')
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\submission.csv
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\submission.csv
+C:\Users\Administrator\AppData\Local\Temp\ipykernel_7760\3760274449.py:1: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(f'{new_cwd}/checkpoint/model.pth')
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\submission.csv
+C:\Users\Administrator\AppData\Local\Temp\ipykernel_7760\3760274449.py:1: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(f'{new_cwd}/checkpoint/model.pth')
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\019410b1fcf0625f608b4ce97629ab55.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\02fa602bb3c7abacdbd7e6afd56ea7bc.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0398846f67b5df7cdf3f33c3ca4d5060.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\05734fbeedd0f9da760db74a29abdb04.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\05b78a91391adc0bb223c4eaf3372eae.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0619ebebe9e9c9d00a4262b4fe4a5a95.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0626ab4ec3d46e602b296cc5cfd263f1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0a0317371a966bf4b3466463a3c64db1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0a5f3601ad4f13ccf1f4b331a412fc44.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0af3feff05dec1eb3a70b145a7d8d3b6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\0fca6a4248a41e8db8b4ed633b456aaa.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1002ec4a1fe748f3085f1ce88cbdf366.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1209db6dcdda5cc8a788edaeb6aa460a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\13dd311a65d2b46d0a6085835c525af6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1531871f2fd85a04faeeb2b535797395.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\15fc656702fa602bb3c7abacdbd7e6af.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1ad4f13ccf1f4b331a412fc44655fb51.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1b62f15ec83b97bb11e8e0c4416c1931.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1c0e9082ea2c193ac8d551c149b60f29.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\1db239dda50f954ba59c7de13a35276a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\26679bff55177a34fc01019eec999fd8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\268d4b4ef4d95ceea11957998906d369.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\27738677a6b1f2c6d40b3bbba8f6c704.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\285e26c90e1797c77826f9a7021bab9f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\2a365b5574868eb60861ee1ff0b8a4f6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\2cd066b9fdbc3bbc04a3afe1f119f21b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\2d9e593b6be1ac29adbe86f03d900fd1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\2ed9fbb63b28163a745959c03983064a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\30c2f4fc276ed9f178dc2f4af6266509.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\314fe384eb2ba3adfda6c1899fdc9837.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\318ecf467d7ad048df39beb176363408.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3425b976973f13dd311a65d2b46d0a60.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\343f27ebc5d92b9076135d76d0bbd4ce.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3657e4314fe384eb2ba3adfda6c1899f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\391adc0bb223c4eaf3372eae567c94ea.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\395e56a6d9ba9d45c3dbc695325ded46.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\39d6aad6bb0170a40ed32deef71fbe08.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\39dda50f954ba59c7de13a35276a4764.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3b8318ecf467d7ad048df39beb176363.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3bbc04a3afe1f119f21b248d152b672a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3c3ca4d5060a633a8d5b2b2b55157b77.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3c692195f853af7f8a4df1ec859759b7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3c84417fda8019410b1fcf0625f608b4.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3dd311a65d2b46d0a6085835c525af63.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\3f33c3ca4d5060a633a8d5b2b2b55157.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\41ed86e58224cb76a67d4dcf9596154e.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\425b976973f13dd311a65d2b46d0a608.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4417fda8019410b1fcf0625f608b4ce9.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\45b21960c94b0aab4c024a573c692195.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\461c2a337948a41964c1d4f50a5f3601.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4baddc22268d4b4ef4d95ceea1195799.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4c1711b62f15ec83b97bb11e8e0c4416.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4ca6160127cd1d5ff99c267599fc487b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4e2a6e51d077bad31c8c5f54ffaa27a6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4e8bfb905b78a91391adc0bb223c4eaf.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4ef4d95ceea11957998906d3694abb47.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4f437f0019f7e6af7d7147763bdfb928.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\4fda8daadc8dd23ae214d84b5dec33fd.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5026b3550534bca540e24f489284b8e6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\50534bca540e24f489284b8e6953ad88.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\54ba59c7de13a35276a476420655433a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\559c7e610b1531871f2fd85a04faeeb2.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5664c1711b62f15ec83b97bb11e8e0c4.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5a51625559c7e610b1531871f2fd85a0.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5b21960c94b0aab4c024a573c692195f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5beb48f0be11d0309d1dff09b8405734.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5c1346e62522325c1b9c4fc9cbe1eca1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\5e8f14e1e0ae936de314f2d95e6c487f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\60a633a8d5b2b2b55157b7781e2c706c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\60b246359c68c836f843dcf41f4dce3c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6231002ec4a1fe748f3085f1ce88cbdf.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6240619ebebe9e9c9d00a4262b4fe4a5.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\625559c7e610b1531871f2fd85a04fae.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\626650908b1cb932a767bf5487ced51b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\633a8d5b2b2b55157b7781e2c706c75c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\63b8318ecf467d7ad048df39beb17636.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6679bff55177a34fc01019eec999fd84.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\66e057db382b8564872a27301a654864.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\677a6b1f2c6d40b3bbba8f6c704801b3.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\67d4dcf9596154efb7cef748d9cbd617.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\68d4b4ef4d95ceea11957998906d3694.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\692195f853af7f8a4df1ec859759b7c8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6ad1468996b4a9ce6d840b53a6558038.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6b83ef461c2a337948a41964c1d4f50a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6d3694abb47953b0e4909384b57bb6a0.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6ddca6ee1af35b65bd9ea42cfcfedb5e.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6f4d4987ea3b4bae5672a230194c5a08.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\6f67b5df7cdf3f33c3ca4d5060a633a8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\710d568df17586ad8f3297c819c90895.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\71f2fd85a04faeeb2b535797395305af.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\72d9e593b6be1ac29adbe86f03d900fd.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7330398846f67b5df7cdf3f33c3ca4d5.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\77e004e8bfb905b78a91391adc0bb223.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\780fd497e1c0e9082ea2c193ac8d551c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\782707d7c359e27888daefee82519763.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7936140a2d5fc1443c4e445927738677.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7ad1cf2eb9d32a3dc907950289e976c7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7af2ed9fbb63b28163a745959c039830.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7b5df7cdf3f33c3ca4d5060a633a8d5b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7cb2eb1ef57af2ed9fbb63b28163a745.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7cdf3f33c3ca4d5060a633a8d5b2b2b5.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7f0019f7e6af7d7147763bdfb928d788.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7f32574d6c748c41743c6c08a1d1ad8f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\7fda8019410b1fcf0625f608b4ce9762.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\80c643782707d7c359e27888daefee82.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\80cae6daedd989517cb8041ed86e5822.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\82ea2c193ac8d551c149b60f2965341c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8395e56a6d9ba9d45c3dbc695325ded4.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\85a04faeeb2b535797395305af926a6f.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\87133b51209db6dcdda5cc8a788edaeb.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\88e16d4ca6160127cd1d5ff99c267599.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8954bb13d3727c7e5e1069646f2f0bb8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8b8ec74baddc22268d4b4ef4d95ceea1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8cbdf366e057db382b8564872a27301a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8eb5a9a8a8d7fcc9df8e5ad89d284483.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\8fa8625605da2023387fd56c04414eaa.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\936de314f2d95e6c487ffa651b477422.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\94a7f32574d6c748c41743c6c08a1d1a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\9632a3c6f7f7fb2a643f15bd0249ddcc.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\97e1c0e9082ea2c193ac8d551c149b60.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\98da48d679d7c7c8d3d96fb2b87fbbcf.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\998906d3694abb47953b0e4909384b57.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\9c7976c1182df0de51d32128c358d1fd.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\9fc7330398846f67b5df7cdf3f33c3ca.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a15fc656702fa602bb3c7abacdbd7e6a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a3657e4314fe384eb2ba3adfda6c1899.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a48847ae8395e56a6d9ba9d45c3dbc69.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a51625559c7e610b1531871f2fd85a04.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a6a4248a41e8db8b4ed633b456aaafac.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a6d9ba9d45c3dbc695325ded465efde9.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a6e51d077bad31c8c5f54ffaa27a6235.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\a9d45c3dbc695325ded465efde988dfb.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\aafac813fe3ccba3e032dd2948a80c64.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\ad43fe2cd066b9fdbc3bbc04a3afe1f1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\aeeb2b535797395305af926a6f23c5d6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\af35b65bd9ea42cfcfedb5eb2a0e4b50.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\afe1f119f21b248d152b672ab3492fc6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\b21960c94b0aab4c024a573c692195f8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\b70dd094a7f32574d6c748c41743c6c0.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\be4d18d5401f659532897255ce2dd4ae.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\be86f03d900fd197cd955fa095f97845.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\bec33b5e3d68f9d4c331587f9b9d49e2.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c193ac8d551c149b60f2965341caf528.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c22268d4b4ef4d95ceea11957998906d.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c41545ba55aadaa77712a48e11d579d9.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c4be73749a0d21db70dd094a7f32574d.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c5a0808bee60b246359c68c836f843dc.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c656702fa602bb3c7abacdbd7e6afd56.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c695325ded465efde988dfb96d081533.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\c7e610b1531871f2fd85a04faeeb2b53.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\ca4d5060a633a8d5b2b2b55157b7781e.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cb1b387133b51209db6dcdda5cc8a788.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cb2eb1ef57af2ed9fbb63b28163a7459.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cbb2a365b5574868eb60861ee1ff0b8a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cc5cfd263f1f90be28799235026b3550.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cdf3f33c3ca4d5060a633a8d5b2b2b55.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cf464aa36bf7c09a3bb0e5ca159410b9.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\cf6644589e532a9ee954f81faedbce39.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d077bad31c8c5f54ffaa27a623511c38.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d3694abb47953b0e4909384b57bb6a05.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d5060a633a8d5b2b2b55157b7781e2c7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d6240619ebebe9e9c9d00a4262b4fe4a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d694539ef2424a9218697283baa3657e.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\d6bf62f215f0da4ad3a7ab8df9da7386.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\db5eb2a0e4b50889d874c68c030b9afe.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\dc0bb223c4eaf3372eae567c94ea04c6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\dc70626ab4ec3d46e602b296cc5cfd26.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\dd094a7f32574d6c748c41743c6c08a1.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\dd78294679c9cbb2a365b5574868eb60.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\df366e057db382b8564872a27301a654.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\df8e26031fbb5e52c41545ba55aadaa7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e1797c77826f9a7021bab9fc73303988.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e19769fa2d37d32780fd497e1c0e9082.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e1e0ae936de314f2d95e6c487ffa651b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e2cd066b9fdbc3bbc04a3afe1f119f21.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e3c84417fda8019410b1fcf0625f608b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e4a17af18f72c8e6166a915669c99390.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e56a6d9ba9d45c3dbc695325ded465ef.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e5e8f14e1e0ae936de314f2d95e6c487.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e73749a0d21db70dd094a7f32574d6c7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e7998934d417cb2eb1ef57af2ed9fbb6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e8bfb905b78a91391adc0bb223c4eaf3.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\e9082ea2c193ac8d551c149b60f29653.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\ea42b4eebc9e5a87e443434ac60af150.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\eb1ef57af2ed9fbb63b28163a745959c.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\eecd70ebce6347c491b37c8c2e5a64a8.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\eff05dec1eb3a70b145a7d8d3b6c0ed7.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f13dd311a65d2b46d0a6085835c525af.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f14e1e0ae936de314f2d95e6c487ffa6.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f62f215f0da4ad3a7ab8df9da7386835.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f7fdb2d45b21960c94b0aab4c024a573.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f8e26031fbb5e52c41545ba55aadaa77.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\f8e5ad89d2844837f2a0f1536ad3f6a5.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\faef7fdb2d45b21960c94b0aab4c024a.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\fb905b78a91391adc0bb223c4eaf3372.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\fcd6da15fc656702fa602bb3c7abacdb.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\fdbc3bbc04a3afe1f119f21b248d152b.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\fe1f119f21b248d152b672ab3492fc62.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\ff05dec1eb3a70b145a7d8d3b6c0ed75.jpeg
+d:/UNet-for-Colonoscopy-Polyp-Segmentation/prediction\ff55177a34fc01019eec999fd84e679b.jpeg
