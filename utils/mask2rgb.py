@@ -1,6 +1,6 @@
 import numpy as np
 
-def mask_to_rgb(mask, color_dict):
+def mask2rgb(mask, color_dict):
     """
     Converts a segmentation mask into an RGB image using a color dictionary.
 
