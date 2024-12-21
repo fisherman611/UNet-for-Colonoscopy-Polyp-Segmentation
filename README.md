@@ -1,6 +1,6 @@
 # **UNet-for-Colonoscopy-Polyp-Segmentation**
 
-This repository provides an implementation of the UNet model for semantic segmentation tasks, specifically for detecting polyps in colonoscopy images. The repository includes training scripts, pretrained model checkpoints, and an inference script for generating segmentation masks.
+This repository offers an implementation of the UNet model tailored for semantic segmentation tasks, focusing on detecting polyps in colonoscopy images. It includes comprehensive training scripts, pretrained model checkpoints, and an inference script to generate accurate segmentation masks. The dataset utilized for this project, [BKAI-IGH NeoPolyp](https://www.kaggle.com/competitions/bkai-igh-neopolyp/data)
 
 ## **Features**
 * Implements a UNet architecture with a configurable encoder (e.g., ResNet).
@@ -31,17 +31,17 @@ This repository provides an implementation of the UNet model for semantic segmen
 Clone the repository and navigate to the project directorty 
 
 ```bash
-git clone fisherman611/UNet-for-Colonoscopy-Polyp-Segmentation
-cd UNet-for-Colonoscopy-Polyp-Segmetation
+git clone https://github.com/fisherman611/UNet-for-Colonoscopy-Polyp-Segmentation.git
 ```
-
-Install the required dependencies: 
+Navigate to the project directory:
+   ```bash
+   cd UNet-for-Colonoscopy-Polyp-Segmentation
+   ```
+(Optional) Install the required dependencies: 
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## **Using the pretrained model**
 ### **Download the pretrained model**
 Download the pretrained model checkpoint from this [Google Drive link](https://drive.google.com/drive/folders/18kWRcWNJSeOZNZdteDuI8rdYpDkq1CL_?usp=sharing).
 
